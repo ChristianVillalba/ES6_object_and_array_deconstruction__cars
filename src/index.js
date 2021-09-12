@@ -2,6 +2,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import cars from "./practice";
+import animals from "./data";
+
+// ANIMALS - data.js , examples extracted on README.md
+// const [cat, dog] = animals;
+// console.log(cat);
+// console.log(dog);
+// const {name, sound} = cat;
+// console.log(sound);
+// console.log(animals[1].sound);
+
+// CARS - practice.js
 
 // Separate the two elements in the car list in independent constants
 const [honda, tesla] = cars;
@@ -24,6 +35,7 @@ ReactDOM.render(
     <tr>
       <th>Brand</th>
       <th>Top Speed</th>
+      <th>Favourite Colour</th>
     </tr>
     <tr>
       <td>{tesla.model}</td>
